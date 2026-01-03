@@ -1,0 +1,31 @@
+[
+    {
+        "pergunta": "Quantas cordas tem um violão tradicional?",
+        "opcoes": ["4", "6", "8"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é a corda mais grossa do violão?",
+        "opcoes": ["Primeira", "Terceira", "Sexta"],
+        "correta": 2
+    },
+    {
+        "pergunta": "O acorde de Dó maior é representado pela letra:",
+        "opcoes": ["D", "C", "G"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Para iniciantes, qual acorde é mais comum aprender primeiro?",
+        "opcoes": ["Bm", "C", "Em"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é a afinação padrão do violão?",
+        "opcoes": [
+            "Mi – Lá – Ré – Sol – Si – Mi",
+            "Lá – Ré – Sol – Si – Mi – Lá",
+            "Mi – Sol – Lá – Ré – Si – Mi"
+        ],
+        "correta": 0
+    }
+]
