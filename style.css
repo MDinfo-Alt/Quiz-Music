@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #0b0f0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #e6fff2;
+    padding: 15px; /* respiro no mobile */
+}
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    background: #0f1a16;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 255, 160, 0.18);
+    text-align: center;
+}
+
+/* ===== TEXTOS ===== */
+
+h1 {
+    color: #00ff9c;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+#pergunta {
+    font-size: 1.25rem;
+}
+
+/* ===== BOTÕES ===== */
+
+button {
+    width: 100%;
+    padding: 16px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #00ff9c, #00cc7a);
+    color: #003320;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Melhor para toque */
+button:active {
+    transform: scale(0.97);
+}
+
+#mensagem {
+    margin-top: 12px;
+    font-size: 1rem;
+}
+
+/* ===== BOTÕES FINAIS ===== */
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-ebook {
+    background: #00ff9c;
+    color: #003320;
+}
+
+/* ===== QR CODE ===== */
+
+.qrcode {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 260px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/* ===== UTIL ===== */
+
+.hidden {
+    display: none;
+}
+
+.apoio {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #b3ffe0;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #pergunta {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 40px;
+    }
+}
